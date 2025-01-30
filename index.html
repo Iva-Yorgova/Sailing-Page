@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalo & Iva Sailing Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body onload="titleAnimation()">
+    <div class="main-box">
+      <div class="bg">
+        <div class="wrapper">
+          <div class="content-box">
+            <p class="email">info@yorgova.net</p>
+
+            <div class="icons-box">
+              <img src="./images/facebook-logo.png" class="icon" />
+              <img src="./images/instagram.png" class="icon" />
+            </div>
+
+            <img class="logo-small" src="./images/logo-small.png" />
+
+            <h1 class="big-title">Kalo & Iva Sailing Page</h1>
+
+            <!-- <div class="black-overlay"></div> -->
+
+            <div class="images">
+              <div class="image-1"></div>
+              <div class="image-2"></div>
+              <div class="image-3"></div>
+              <div class="image-4"></div>
+              <div class="image-5"></div>
+            </div>
+            <div class="menu-bar">
+              <div class="menu-box">
+                <p class="menu-item active home">HOME</p>
+                <p class="menu-item">PROJECTS</p>
+                <p class="menu-item">CONTACTS</p>
+                <p class="menu-item">
+                  <a
+                    class="design-link"
+                    href="https://www.yorgova.net"
+                    target="_blank"
+                    >GRAPHIC DESIGN & WEB DEVELOPMENT</a
+                  >
+                </p>
+                <img src="./images/more.png" class="more" />
+              </div>
+            </div>
+
+            <div class="bottom-box">
+              <div class="text-box">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur.
+                </p>
+              </div>
+              <div class="sponsors-box">
+                <h3>
+                  “The greatest adventure is what lies ahead. Each day brings
+                  new possibilities for exploration and discovery.”
+                </h3>
+                <br />
+                <p>J.R.R. Tolkien</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- <img class="logo-big" src="./images/logo.png" /> -->
+
+          <div class="footer">
+            <p class="small-info">Copyright © 2025 | All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  <script>
+    function titleAnimation() {
+      let title = document.querySelector(".big-title");
+      // let rowGif = document.querySelector('.row-gif');
+      title.classList.add("show-big-title");
+      // rowGif.classList.add('fade');
+      setTimeout(() => {
+        title.classList.add("white-title");
+      }, 2000);
+    }
+  </script>
+</html>
