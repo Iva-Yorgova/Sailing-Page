@@ -55,17 +55,17 @@ p {
 }
 
 .big-title {
-  font-size: 70px;
+  font-size: 64px;
   position: absolute;
   z-index: 1;
   color: transparent;
   width: 500px;
-  line-height: 61px;
+  line-height: 57px;
   font-family: "K2D", sans-serif;
   letter-spacing: -1px;
   transition: all 3s ease-in-out;
   left: 1600px;
-  top: 267px;
+  top: 275px;
   -webkit-text-stroke: 1.4px white;
 }
 
