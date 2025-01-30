@@ -534,16 +534,6 @@ h4 {
   .footer {
     top: 930px;
   }
-  .bg {
-    height: 180vh;
-    background: rgb(178, 225, 251);
-    background: linear-gradient(
-      180deg,
-      rgba(178, 225, 251, 1) 0%,
-      rgba(178, 225, 251, 1) 40%,
-      rgba(255, 255, 255, 1) 100%
-    );
-  }
 }
 
 @media only screen and (max-width: 750px) {
@@ -557,15 +547,6 @@ h4 {
     transform: rotate(-90deg);
     top: 288px;
     right: -40px;
-  }
-  .bg {
-    background: rgb(178, 225, 251);
-    background: linear-gradient(
-      180deg,
-      rgba(178, 225, 251, 1) 0%,
-      rgba(178, 225, 251, 1) 40%,
-      rgba(255, 255, 255, 1) 100%
-    );
   }
 }
 
@@ -597,13 +578,6 @@ h4 {
 @media only screen and (max-width: 450px) {
   .bg {
     height: 200vh;
-    background: rgb(178, 225, 251);
-    background: linear-gradient(
-      180deg,
-      rgba(178, 225, 251, 1) 0%,
-      rgba(178, 225, 251, 1) 40%,
-      rgba(255, 255, 255, 1) 100%
-    );
   }
   .logo-big {
     top: 900px;
