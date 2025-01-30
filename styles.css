@@ -496,7 +496,7 @@ h4 {
   }
 
   .bg {
-    height: 170vh;
+    height: 180vh;
   }
 
   .wrapper {
@@ -507,6 +507,7 @@ h4 {
     font-size: 57px;
     top: 296px;
     line-height: 53px;
+    width: 324px;
   }
   .sponsors-box {
     padding: 48px 34px 48px 48px;
@@ -556,13 +557,12 @@ h4 {
   }
   .big-title {
     font-size: 48px;
-    top: 260px;
+    top: 193px;
     line-height: 43px;
     transform: rotate(-90deg);
-    /* left: -10px; */
   }
   .show-big-title {
-    left: -10px;
+    left: -73px;
   }
   .logo-big {
     top: 776px;
