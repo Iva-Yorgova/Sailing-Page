@@ -239,14 +239,12 @@ p {
   height: 48px;
   padding: 20px;
   top: 425px;
-  position: absolute;
+  position: sticky;
   background: rgb(0, 0, 0);
-  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(42, 41, 41) 100%);
   display: flex;
   align-items: center;
   justify-content: center;
   z-index: 1;
-  position: absolute;
 }
 
 .menu-box {
@@ -268,7 +266,7 @@ p {
 }
 
 .menu-item:hover {
-  background: #404041;
+  background: #232323a0;
 }
 
 .icon {
@@ -632,5 +630,11 @@ h4 {
 @media only screen and (min-width: 900px) {
   .dropdown-icons {
     display: none;
+  }
+}
+
+@media only screen and (min-width: 1020px) {
+  .images {
+    height: 537px;
   }
 }
