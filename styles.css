@@ -63,19 +63,19 @@ p {
   line-height: 57px;
   font-family: "K2D", sans-serif;
   letter-spacing: -1px;
-  transition: all 3s ease-in-out;
+  transition: all 2s ease-in-out;
   left: 1600px;
-  top: 275px;
-  -webkit-text-stroke: 1.4px white;
+  top: 384px;
+  -webkit-text-stroke: 1.3px white;
 }
 
 .show-big-title {
   left: 49px;
 }
 
-.white-title {
-  color: white;
-  text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.3);
+.water-title {
+  color: rgba(4, 7, 197, 0.14);
+  text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.08);
 }
 
 .show-btn {
@@ -281,7 +281,6 @@ p {
   gap: 10px;
   z-index: 10;
   right: 48px;
-  top: 439px;
 }
 
 .more {
@@ -316,6 +315,7 @@ p {
 .dropdown-icons a {
   text-decoration: none;
   color: white;
+  font-size: 14px;
 }
 
 .hidden {
@@ -358,7 +358,7 @@ p {
 
 .email {
   position: absolute;
-  top: 371px;
+  top: 465px;
   right: 41px;
   z-index: 1;
   color: white;
@@ -501,6 +501,9 @@ h4 {
   .logo-big {
     top: 610px;
   }
+  .email {
+    top: 393px;
+  }
 }
 
 @media only screen and (max-width: 950px) {
@@ -519,6 +522,9 @@ h4 {
     top: 296px;
     line-height: 53px;
   }
+  .email {
+    top: 393px;
+  }
 }
 
 @media only screen and (max-width: 1010px) {
@@ -532,7 +538,7 @@ h4 {
 
   .big-title {
     font-size: 57px;
-    top: 296px;
+    top: 323px;
     line-height: 53px;
     width: 324px;
   }
@@ -555,11 +561,17 @@ h4 {
   .more {
     display: flex;
   }
+  .email {
+    top: 393px;
+  }
 }
 
 @media only screen and (max-width: 850px) {
   .logo-big {
     top: 700px;
+  }
+  .email {
+    top: 393px;
   }
 }
 
@@ -570,7 +582,7 @@ h4 {
 
   .email {
     transform: rotate(-90deg);
-    top: 317px;
+    top: 341px;
     right: -14px;
   }
 }
@@ -581,7 +593,7 @@ h4 {
   }
   .big-title {
     font-size: 48px;
-    top: 193px;
+    top: 226px;
     line-height: 43px;
     transform: rotate(-90deg);
   }
@@ -592,7 +604,7 @@ h4 {
     top: 776px;
   }
   .email {
-    right: -40px;
+    right: -28px;
   }
   .logo-small {
     width: 136px;
@@ -627,14 +639,13 @@ h4 {
 }
 
 /* dropdown */
-@media only screen and (min-width: 900px) {
-  .dropdown-icons {
-    display: none;
-  }
-}
 
 @media only screen and (min-width: 1020px) {
   .images {
     height: 537px;
+    width: 99.2%;
+  }
+  .dropdown-icons {
+    display: none;
   }
 }
