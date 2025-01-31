@@ -83,6 +83,12 @@ p {
   cursor: pointer;
 }
 
+.icon {
+  display: none;
+  font-size: 30px !important;
+  line-height: 0.3 !important;
+}
+
 .footer {
   position: absolute;
   z-index: 10;
@@ -284,9 +290,44 @@ p {
   display: none;
   position: absolute;
   width: 19px;
-  left: 93px;
+  right: 47px;
   cursor: pointer;
   transition: all 0.5s ease-in-out;
+  color: white;
+  text-decoration: none;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+#dropdown-content {
+  position: absolute;
+  background-color: #252424e8;
+  top: 47px;
+  transition: top 0.5s;
+  width: 100%;
+}
+
+.dropdown-icons {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 52px;
+  color: white;
+  line-height: 25px;
+}
+
+.dropdown-icons a {
+  text-decoration: none;
+  color: white;
+}
+
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.reveal {
+  visibility: visible;
+  opacity: 1;
 }
 
 .active {
@@ -520,9 +561,11 @@ h4 {
   .menu-item {
     display: none;
   }
+
   .home {
     display: flex;
   }
+
   .more {
     display: flex;
   }
@@ -608,3 +651,8 @@ h4 {
 }
 
 /* dropdown */
+@media only screen and (min-width: 900px) {
+  .dropdown-icons {
+    display: none;
+  }
+}

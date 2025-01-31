@@ -32,10 +32,27 @@
               <div class="image-5"></div>
             </div>
             <div class="menu-bar">
+              <div id="dropdown-content" class="hidden">
+                <div class="dropdown-icons">
+                  <a href="">PROJECTS</a>
+                  <a href="">CONTACTS</a>
+                  <a
+                    class="design-link"
+                    href="https://www.yorgova.net"
+                    target="_blank"
+                    >GRAPHIC DESIGN & WEB DEVELOPMENT</a
+                  >
+                </div>
+              </div>
+
+              <a href="javascript:void(0);" class="more" onclick="myFunction()"
+                >&#9776;</a
+              >
               <div class="menu-box">
                 <p class="menu-item active home">HOME</p>
                 <p class="menu-item">PROJECTS</p>
                 <p class="menu-item">CONTACTS</p>
+
                 <p class="menu-item">
                   <a
                     class="design-link"
@@ -44,12 +61,19 @@
                     >GRAPHIC DESIGN & WEB DEVELOPMENT</a
                   >
                 </p>
-                <img src="./images/more.png" class="more" />
               </div>
             </div>
 
             <div class="bottom-box">
               <div class="text-box">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur.
+                </p>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -89,5 +113,14 @@
       }, 2000);
     }
   </script>
-  <script></script>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("dropdown-content");
+      if (x.className === "hidden") {
+        x.className += " reveal";
+      } else {
+        x.className = "hidden";
+      }
+    }
+  </script>
 </html>
