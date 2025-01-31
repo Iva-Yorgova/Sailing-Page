@@ -228,10 +228,11 @@ p {
   line-height: 25px;
 }
 
-.sponsors-box {
+.right-box {
   background-color: rgb(160, 146, 181);
   padding: 48px 34px 48px 30px;
   line-height: 25px;
+  font-size: 14px;
 }
 
 .menu-bar {
@@ -302,6 +303,7 @@ p {
   top: 47px;
   transition: top 0.5s;
   width: 100%;
+  transition: all 0.7s ease-in-out;
 }
 
 .dropdown-icons {
