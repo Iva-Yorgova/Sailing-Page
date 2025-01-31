@@ -648,4 +648,9 @@ h4 {
   .dropdown-icons {
     display: none;
   }
+  .big-title {
+    font-size: 84px;
+    line-height: 73px;
+    top: 352px;
+  }
 }
