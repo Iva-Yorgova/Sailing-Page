@@ -535,7 +535,7 @@ h4 {
   }
 
   .bg {
-    height: 224vh;
+    height: 245vh;
   }
 
   .big-title {
@@ -612,13 +612,13 @@ h4 {
     width: 136px;
   }
   .footer {
-    bottom: -37px;
+    bottom: -77px;
   }
 }
 
 @media only screen and (max-width: 450px) {
   .bg {
-    height: 247vh;
+    height: 300vh;
   }
   .logo-big {
     top: 900px;
