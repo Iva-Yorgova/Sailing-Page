@@ -612,13 +612,13 @@ h4 {
     width: 136px;
   }
   .footer {
-    bottom: -77px;
+    bottom: -88px;
   }
 }
 
 @media only screen and (max-width: 450px) {
   .bg {
-    height: 300vh;
+    height: 320vh;
   }
   .logo-big {
     top: 900px;
