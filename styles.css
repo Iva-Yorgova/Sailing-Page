@@ -219,7 +219,7 @@ p {
 .prj-1 {
   background: url("./images/projects/01.jpg");
   background-size: cover;
-  background-position: center bottom;
+  background-position: center center;
   width: 100%;
   height: inherit;
   transition: all 1s ease-in-out;
@@ -231,7 +231,7 @@ p {
 .prj-2 {
   background: url("./images/projects/02.jpg");
   background-size: cover;
-  background-position: center top;
+  background-position: center center;
   width: 100%;
   height: inherit;
   transition: all 1s ease-in-out;
@@ -243,7 +243,7 @@ p {
 .prj-3 {
   background: url("./images/projects/03.jpg");
   background-size: cover;
-  background-position: center bottom;
+  background-position: center center;
   width: 100%;
   height: inherit;
   transition: all 1s ease-in-out;
@@ -255,7 +255,7 @@ p {
 .prj-4 {
   background: url("./images/projects/04.jpg");
   background-size: cover;
-  background-position: center bottom;
+  background-position: center center;
   width: 100%;
   height: inherit;
   transition: all 1s ease-in-out;
@@ -267,7 +267,7 @@ p {
 .prj-5 {
   background: url("./images/projects/05.jpg");
   background-size: cover;
-  background-position: center bottom;
+  background-position: center top;
   width: 100%;
   height: inherit;
   transition: all 1s ease-in-out;
