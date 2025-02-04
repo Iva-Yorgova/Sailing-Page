@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body onload="titleAnimation()">
+    <div class="main-box">
+      <div class="bg">
+        <div class="wrapper">
+          <div class="content-box">
+            <p class="email">info@yorgova.net</p>
+
+            <img class="logo-small" src="./images/logo-small.png" />
+
+            <h1 class="big-title">Projects</h1>
+
+            <div class="projects">
+              <div class="prj-1"></div>
+              <div class="prj-2"></div>
+              <div class="prj-3"></div>
+              <div class="prj-4"></div>
+              <div class="prj-5"></div>
+            </div>
+            <div class="menu-bar">
+              <div id="dropdown-content" class="hidden">
+                <div class="dropdown-icons">
+                  <a href="">PROJECTS</a>
+                  <a href="">CONTACTS</a>
+                  <a
+                    class="design-link"
+                    href="https://www.yorgova.net"
+                    target="_blank"
+                    >GRAPHIC DESIGN & WEB DEVELOPMENT</a
+                  >
+                </div>
+              </div>
+
+              <a href="javascript:void(0);" class="more" onclick="myFunction()"
+                >&#9776;</a
+              >
+              <div class="menu-box">
+                <a href="index.html" class="menu-item active home">HOME</a>
+                <a href="projects.html" class="menu-item">PROJECTS</a>
+                <p class="menu-item">CONTACTS</p>
+
+                <p class="menu-item">
+                  <a
+                    class="design-link"
+                    href="https://www.yorgova.net"
+                    target="_blank"
+                    >GRAPHIC DESIGN & WEB DEVELOPMENT</a
+                  >
+                </p>
+              </div>
+              <div class="icons-box">
+                <img src="./images/facebook-logo.png" class="icon" />
+                <img src="./images/instagram.png" class="icon" />
+              </div>
+            </div>
+
+            <div class="bottom-box">
+              <div class="text-box">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur.
+                </p>
+              </div>
+              <div class="right-box">
+                <h3>
+                  “The greatest adventure is what lies ahead. <br />Each day
+                  brings new possibilities for exploration and discovery.”
+                </h3>
+                <br />
+                <p>J.R.R. Tolkien</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer">
+            <p class="small-info">Copyright © 2025 | All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  <script>
+    function titleAnimation() {
+      let title = document.querySelector(".big-title");
+      title.classList.add("show-big-title");
+      setTimeout(() => {
+        title.classList.add("water-title");
+      }, 2000);
+    }
+  </script>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("dropdown-content");
+      if (x.className === "hidden") {
+        x.className += " reveal";
+      } else {
+        x.className = "hidden";
+      }
+    }
+  </script>
+</html>
