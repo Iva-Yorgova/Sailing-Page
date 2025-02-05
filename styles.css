@@ -69,6 +69,10 @@ p {
   -webkit-text-stroke: 1.3px white;
 }
 
+.projects-title {
+  font-size: 80px;
+}
+
 .show-big-title {
   left: 49px;
 }
@@ -399,6 +403,14 @@ p {
   font-size: 14px;
 }
 
+.drop-item {
+  transition: all 0.7s ease-in-out;
+}
+
+.drop-item:hover {
+  color: aqua;
+}
+
 .hidden {
   visibility: hidden;
   opacity: 0;
@@ -678,6 +690,10 @@ h4 {
     line-height: 43px;
     transform: rotate(-90deg);
   }
+  .projects-title {
+    font-size: 50px;
+    top: 380px;
+  }
   .show-big-title {
     left: -73px;
   }
@@ -708,6 +724,10 @@ h4 {
   .big-title {
     font-size: 43px;
   }
+  .projects-title {
+    font-size: 70px;
+    top: 380px;
+  }
 
   .bottom-box {
     font-size: 15px;
@@ -735,5 +755,9 @@ h4 {
     font-size: 84px;
     line-height: 73px;
     top: 352px;
+  }
+  .projects-title {
+    font-size: 70px;
+    top: 380px;
   }
 }
