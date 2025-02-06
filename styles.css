@@ -71,6 +71,17 @@ p {
 
 .projects-title {
   font-size: 80px;
+  position: absolute;
+  z-index: 1;
+  color: transparent;
+  width: 500px;
+  line-height: 57px;
+  font-family: "K2D", sans-serif;
+  letter-spacing: -1px;
+  transition: all 2s ease-in-out;
+  left: 1600px;
+  top: 384px;
+  -webkit-text-stroke: 1.3px white;
 }
 
 .show-big-title {
@@ -615,6 +626,10 @@ h4 {
     top: 296px;
     line-height: 53px;
   }
+  .projects-title {
+    font-size: 57px;
+    top: 296px;
+  }
   .email {
     top: 393px;
   }
@@ -634,6 +649,10 @@ h4 {
     top: 323px;
     line-height: 53px;
     width: 324px;
+  }
+  .projects-title {
+    font-size: 75px;
+    top: 364px;
   }
   .sponsors-box {
     padding: 48px 34px 48px 48px;
@@ -668,6 +687,12 @@ h4 {
   }
 }
 
+@media only screen and (min-width: 770px) {
+  .bg {
+    height: 194vh;
+  }
+}
+
 @media only screen and (max-width: 750px) {
   .logo-big {
     top: 700px;
@@ -677,6 +702,33 @@ h4 {
     transform: rotate(-90deg);
     top: 341px;
     right: -14px;
+  }
+}
+
+@media only screen and (min-width: 730px) {
+  .bg {
+    height: 200vh;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .bg {
+    height: 210vh;
+  }
+}
+
+@media only screen and (min-width: 650px) {
+  .bg {
+    height: 220vh;
+  }
+}
+
+@media only screen and (min-width: 580px) {
+  .bg {
+    height: 207vh;
+  }
+  .footer {
+    bottom: -57px;
   }
 }
 
@@ -691,11 +743,12 @@ h4 {
     transform: rotate(-90deg);
   }
   .projects-title {
-    font-size: 50px;
-    top: 380px;
+    font-size: 61px;
+    top: 154px;
+    transform: rotate(-90deg);
   }
   .show-big-title {
-    left: -73px;
+    left: -178px;
   }
   .logo-big {
     top: 776px;
@@ -707,14 +760,137 @@ h4 {
     width: 136px;
   }
   .footer {
-    bottom: -88px;
+    bottom: -73px;
+  }
+}
+
+@media only screen and (min-width: 550px) {
+  .bg {
+    height: 207vh;
+  }
+  .footer {
+    bottom: -57px;
+  }
+}
+
+@media only screen and (min-width: 520px) {
+  .bg {
+    height: 207vh;
+  }
+  .footer {
+    bottom: -57px;
+  }
+}
+
+@media only screen and (min-width: 490px) {
+  .bg {
+    height: 215vh;
+  }
+  .footer {
+    bottom: -57px;
+  }
+}
+
+@media only screen and (min-width: 470px) {
+  .bg {
+    height: 220vh;
+  }
+  .footer {
+    bottom: -57px;
+  }
+}
+
+@media only screen and (min-width: 450px) {
+  .bg {
+    height: 230vh;
+  }
+  .footer {
+    bottom: -57px;
+  }
+}
+
+@media only screen and (min-width: 430px) {
+  .bg {
+    height: 237vh;
+  }
+  .footer {
+    bottom: -57px;
+  }
+}
+
+@media only screen and (min-width: 370px) {
+  .bg {
+    height: 260vh;
+  }
+  .footer {
+    bottom: -57px;
+  }
+}
+
+@media only screen and (min-width: 360px) {
+  .bg {
+    height: 260vh;
+  }
+  .footer {
+    bottom: -75px;
+  }
+}
+
+@media only screen and (min-width: 340px) {
+  .bg {
+    height: 270vh;
+  }
+  .footer {
+    bottom: -75px;
+  }
+}
+
+@media only screen and (min-width: 330px) {
+  .bg {
+    height: 280vh;
+  }
+  .footer {
+    bottom: -75px;
+  }
+}
+
+@media only screen and (min-width: 300px) {
+  .bg {
+    height: 290vh;
+  }
+  .footer {
+    bottom: -75px;
+  }
+}
+
+@media only screen and (min-width: 290px) {
+  .bg {
+    height: 290vh;
+  }
+  .footer {
+    bottom: -91px;
+  }
+}
+
+@media only screen and (min-width: 270px) {
+  .bg {
+    height: 330vh;
+  }
+  .footer {
+    bottom: -91px;
+  }
+}
+
+@media only screen and (min-width: 250px) {
+  .bg {
+    height: 340vh;
+  }
+  .footer {
+    bottom: -91px;
   }
 }
 
 @media only screen and (max-width: 450px) {
-  .bg {
-    height: 320vh;
-  }
   .logo-big {
     top: 900px;
   }
@@ -725,8 +901,8 @@ h4 {
     font-size: 43px;
   }
   .projects-title {
-    font-size: 70px;
-    top: 380px;
+    font-size: 61px;
+    top: 158px;
   }
 
   .bottom-box {
@@ -757,7 +933,7 @@ h4 {
     top: 352px;
   }
   .projects-title {
-    font-size: 70px;
-    top: 380px;
+    font-size: 82px;
+    top: 435px;
   }
 }
