@@ -104,12 +104,11 @@ p {
 }
 
 .footer {
-  position: absolute;
+  position: relative;
   z-index: 10;
   width: 300px;
   height: 50px;
-  bottom: 0px;
-  left: 7px;
+  bottom: -37px;
 }
 
 .small-info {
@@ -441,7 +440,7 @@ p {
   display: flex;
   flex-direction: column;
   border-radius: 30px;
-  position: absolute;
+  position: relative;
   top: 21px;
   background: white;
   z-index: 1;
@@ -723,12 +722,10 @@ h4 {
 } */
 
 @media only screen and (min-width: 580px) {
-  /* .bg {
+  .bg {
     height: 207vh;
-  } */
-  .footer {
-    bottom: -57px;
   }
+ 
 }
 
 @media only screen and (max-width: 560px) {
@@ -758,134 +755,97 @@ h4 {
   .logo-small {
     width: 136px;
   }
-  .footer {
-    bottom: -73px;
-  }
+
 }
 
 @media only screen and (min-width: 550px) {
-  /* .bg {
+  .bg {
     height: 207vh;
-  } */
-  .footer {
-    bottom: -57px;
   }
+ 
 }
 
 @media only screen and (min-width: 520px) {
-  /* .bg {
+  .bg {
     height: 207vh;
-  } */
-  .footer {
-    bottom: -57px;
   }
+ 
 }
 
 @media only screen and (min-width: 490px) {
-  /* .bg {
+  .bg {
     height: 215vh;
-  } */
-  .footer {
-    bottom: -57px;
   }
+
 }
 
 @media only screen and (min-width: 470px) {
-  /* .bg {
+  .bg {
     height: 220vh;
-  } */
-  .footer {
-    bottom: -57px;
   }
+
 }
 
 @media only screen and (min-width: 450px) {
-  /* .bg {
+  .bg {
     height: 230vh;
-  } */
-  .footer {
-    bottom: -57px;
   }
+ 
 }
 
 @media only screen and (min-width: 430px) {
-  /* .bg {
+  .bg {
     height: 237vh;
-  } */
-  .footer {
-    bottom: -57px;
   }
+
 }
 
 @media only screen and (min-width: 370px) {
-  /* .bg {
+  .bg {
     height: 260vh;
-  } */
-  .footer {
-    bottom: -57px;
   }
+ ]
 }
 
 @media only screen and (min-width: 360px) {
-  /* .bg {
+  .bg {
     height: 260vh;
-  } */
-  .footer {
-    bottom: -75px;
   }
 }
 
 @media only screen and (min-width: 340px) {
-  /* .bg {
+  .bg {
     height: 270vh;
-  } */
-  .footer {
-    bottom: -75px;
   }
 }
 
 @media only screen and (min-width: 330px) {
-  /* .bg {
+  .bg {
     height: 280vh;
-  } */
-  .footer {
-    bottom: -75px;
   }
 }
 
 @media only screen and (min-width: 300px) {
-  /* .bg {
+  .bg {
     height: 290vh;
-  } */
-  .footer {
-    bottom: -75px;
   }
 }
 
 @media only screen and (min-width: 290px) {
-  /* .bg {
+  .bg {
     height: 290vh;
-  } */
-  .footer {
-    bottom: -91px;
   }
 }
 
 @media only screen and (min-width: 270px) {
-  /* .bg {
+  .bg {
     height: 330vh;
-  } */
-  .footer {
-    bottom: -91px;
   }
 }
 
 @media only screen and (min-width: 250px) {
-  /* .bg {
-    height: 300vh;
-  } */
-  .footer {
-    bottom: -91px;
+  .bg {
+    height: 340vh;
   }
 }
 
