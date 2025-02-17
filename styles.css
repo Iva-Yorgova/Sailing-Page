@@ -725,7 +725,6 @@ h4 {
   .bg {
     height: 207vh;
   }
- 
 }
 
 @media only screen and (max-width: 560px) {
@@ -744,7 +743,7 @@ h4 {
     transform: rotate(-90deg);
   }
   .show-big-title {
-    left: -178px;
+    left: -73px;
   }
   .logo-big {
     top: 776px;
@@ -755,56 +754,48 @@ h4 {
   .logo-small {
     width: 136px;
   }
-
 }
 
 @media only screen and (min-width: 550px) {
   .bg {
     height: 207vh;
   }
- 
 }
 
 @media only screen and (min-width: 520px) {
   .bg {
     height: 207vh;
   }
- 
 }
 
 @media only screen and (min-width: 490px) {
   .bg {
     height: 215vh;
   }
-
 }
 
 @media only screen and (min-width: 470px) {
   .bg {
     height: 220vh;
   }
-
 }
 
 @media only screen and (min-width: 450px) {
   .bg {
     height: 230vh;
   }
- 
 }
 
 @media only screen and (min-width: 430px) {
   .bg {
     height: 237vh;
   }
-
 }
 
 @media only screen and (min-width: 370px) {
   .bg {
     height: 260vh;
   }
- ]
 }
 
 @media only screen and (min-width: 360px) {
